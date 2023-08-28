@@ -12,7 +12,10 @@ const Registro = () => {
   return (
     <>
       <div>
-        <SocialB icon="facebook" icon2="twitter" icon3="google" />
+        <SocialB 
+        icon="facebook" 
+        icon3="google" 
+        icon2="twitter"/>
         <Formulario setError={setError} />
 
         {error.mensaje && (

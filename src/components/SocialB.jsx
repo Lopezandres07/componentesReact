@@ -17,8 +17,8 @@ const SocialB = ({ icon, icon2, icon3 }) => {
   return (
     <div className="icons fa-xl">
       <FontAwesomeIcon icon={["fab", icon]} />
-      <FontAwesomeIcon icon={["fab", icon2]} />
       <FontAwesomeIcon icon={["fab", icon3]} />
+      <FontAwesomeIcon icon={["fab", icon2]} />
     </div>
   );
 };
