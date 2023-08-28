@@ -59,7 +59,7 @@ const Formulario = ({ setError }) => {
             type="text"
             name="nombre"
             className="form-control"
-            placeholder="nombre"
+            placeholder="Nombre"
             onChange={handleChange}
             value={formulario.nombre}
           />
@@ -67,7 +67,7 @@ const Formulario = ({ setError }) => {
             type="text"
             name="email"
             className="form-control"
-            placeholder="nombre"
+            placeholder="Correo@correo.com"
             onChange={handleChange}
             value={formulario.email}
           />
@@ -75,7 +75,7 @@ const Formulario = ({ setError }) => {
             type="text"
             name="password"
             className="form-control"
-            placeholder="nombre"
+            placeholder="Contraseña"
             onChange={handleChange}
             value={formulario.password}
           />
@@ -83,7 +83,7 @@ const Formulario = ({ setError }) => {
             type="text"
             name="confirmpassword"
             className="form-control"
-            placeholder="nombre"
+            placeholder="Validar Contraseña"
             onChange={handleChange}
             value={formulario.confirmpassword}
           />
